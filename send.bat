@@ -5,3 +5,4 @@ set ldt=%ldt:~0,4%-%ldt:~4,2%-%ldt:~6,2% %ldt:~8,2%:%ldt:~10,2%:%ldt:~12,6%
 rem echo "Новая версия, дата: %ldt%"
 git add .
 git commit -m "Новая версия, дата: %ldt%"
+git push
